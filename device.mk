@@ -148,9 +148,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.full.xml \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
-# GCamGo
+# Camera
 PRODUCT_PACKAGES += \
-    GCamGOPrebuilt-V2
+    Aperture
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -371,6 +371,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
+    ApertureMojito \
     CarrierConfigMojito \
     KProfilesMojito \
     FrameworksMojito \
