@@ -1,0 +1,4 @@
+kernel/xiaomi/
+vendor/xiaomi/
+packages/apps/GCamGOPrebuilt
+prebuilts/gcc/linux-x86/

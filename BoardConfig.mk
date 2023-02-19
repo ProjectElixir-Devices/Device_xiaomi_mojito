@@ -11,6 +11,9 @@ DEVICE_PATH := device/xiaomi/mojito
 # Inherit from proprietary files
 include vendor/xiaomi/mojito/BoardConfigVendor.mk
 
+# Properties
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+
 # A/B
 AB_OTA_UPDATER := true
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
